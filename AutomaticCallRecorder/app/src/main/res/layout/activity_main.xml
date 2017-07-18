@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.antony.automaticcallrecorder.views.MainView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.antony.automaticcallrecorder.activities.MainActivity"
+    tools:ignore="GradleDependency">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_maintab"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@android:color/white"
+        app:tabTextColor="@color/yellow"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        style="@style/MyTabLayoutTextAppearance"
+        app:tabSelectedTextColor="@android:color/white"
+
+
+
+
+        />
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="net.voidynullness.android.tabitytabs.PagerTabStripActivity">
+
+
+
+    </android.support.v4.view.ViewPager>
+</com.antony.automaticcallrecorder.views.MainView>
